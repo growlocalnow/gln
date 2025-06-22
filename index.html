@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grow Local Now</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="bg-[#0A2A66] text-white p-10 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">Grow Local Now</h1>
+    <p class="text-lg md:text-xl mb-6">Simple Strategies. Real Growth. For Local Businesses Worldwide.</p>
+    <a href="#contact" class="bg-[#AED581] text-[#0A2A66] font-semibold px-6 py-3 rounded-xl hover:bg-[#9CCC65] transition">Get Started</a>
+  </section>
+
+  <!-- About Section -->
+  <section class="p-10 md:p-16 text-center bg-gray-100">
+    <h2 class="text-3xl font-semibold mb-4">About Us</h2>
+    <p class="max-w-3xl mx-auto text-lg text-gray-600">
+      At Grow Local Now, we help local business owners grow smarter — not harder. Whether you’re just starting out or scaling a service-based business, we deliver real-world strategies, modern tools, and marketing techniques that work.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="p-10 md:p-16 text-center">
+    <h2 class="text-3xl font-semibold mb-6">What We Offer</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="p-6 bg-white shadow-md rounded-xl">
+        <h3 class="text-xl font-bold mb-2">Marketing Tips</h3>
+        <p class="text-gray-600">Proven advice tailored for small and local business success.</p>
+      </div>
+      <div class="p-6 bg-white shadow-md rounded-xl">
+        <h3 class="text-xl font-bold mb-2">Tools & Templates</h3>
+        <p class="text-gray-600">Ready-to-use tools to simplify your local marketing and operations.</p>
+      </div>
+      <div class="p-6 bg-white shadow-md rounded-xl">
+        <h3 class="text-xl font-bold mb-2">Community Support</h3>
+        <p class="text-gray-600">Join a growing network of local business owners sharing and learning together.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section with Form -->
+  <section id="contact" class="bg-[#0A2A66] text-white text-center p-10 md:p-16">
+    <h2 class="text-3xl font-semibold mb-4">Ready to Grow?</h2>
+    <p class="mb-6 text-lg">Start building your business with confidence and clarity. Let's grow local — together.</p>
+
+    <form action="https://formsubmit.co/xyzxyz@gmail.com" method="POST" class="max-w-2xl mx-auto text-left space-y-4">
+      <!-- Name -->
+      <input type="text" name="name" placeholder="Your Name" required
+        class="w-full p-3 rounded-lg text-gray-800" />
+
+      <!-- Email -->
+      <input type="email" name="email" placeholder="Your Email Address" required
+        class="w-full p-3 rounded-lg text-gray-800" />
+
+      <!-- Message -->
+      <textarea name="message" placeholder="Your Message" rows="6" required
+        class="w-full p-3 rounded-lg text-gray-800"></textarea>
+
+      <!-- Autoresponse -->
+      <input type="hidden" name="_autoresponse" value="Thank you for contacting us! We’ve received your message and will respond shortly.">
+
+      <!-- Optional redirect -->
+      <input type="hidden" name="_next" value="thank-you.html" />
+
+      <!-- Honeypot -->
+      <input type="text" name="_honey" style="display:none" />
+
+      <!-- Submit -->
+      <button type="submit"
+        class="w-full bg-[#AED581] text-[#0A2A66] font-semibold py-3 rounded-xl hover:bg-[#9CCC65] transition">
+        Send Message
+      </button>
+    </form>
+
+    <p class="text-sm text-gray-300 mt-4">We usually respond within 24 hours.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center text-sm text-gray-600 py-6">
+    © 2025 Grow Local Now · All Rights Reserved
+  </footer>
+
+</body>
+</html>
